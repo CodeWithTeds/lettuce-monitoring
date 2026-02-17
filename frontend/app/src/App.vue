@@ -6,6 +6,7 @@ import GrowthAnalytics from './components/GrowthAnalytics.vue';
 import CriticalAlerts from './components/CriticalAlerts.vue';
 import ActivityOverview from './components/ActivityOverview.vue';
 import ActiveContainers from './components/ActiveContainers.vue';
+import AIPanel from './components/AIPanel.vue';
 </script>
 
 <template>
@@ -40,4 +41,6 @@ import ActiveContainers from './components/ActiveContainers.vue';
         </div>
     </div>
   </DashboardLayout>
+
+  <AIPanel />
 </template>
