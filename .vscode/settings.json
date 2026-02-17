@@ -1,0 +1,35 @@
+{
+  "files.associations": {
+    "*.blade.php": "blade"
+  },
+  "intelephense.environment.includePaths": [
+    "backend/vendor/laravel/framework/src/Illuminate"
+  ],
+  "intelephense.files.maxSize": 5000000,
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "[blade]": {
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+  },
+  "laravel-extra-intellisense.basePath": "backend",
+  "laravel-extra-intellisense.basePathForArtisan": "backend",
+  "laravel-extra-intellisense.viewDirectory": "backend/resources/views",
+  "laravel-extra-intellisense.controllersDirectory": "backend/app/Http/Controllers",
+  "laravel-extra-intellisense.modelsDirectory": "backend/app/Models",
+  "emmet.includeLanguages": {
+    "blade": "html"
+  },
+  "php.validate.executablePath": "php",
+  "php.suggest.basic": false,
+  "editor.formatOnSave": true,
+  "mcpServers": {
+    "laravel-boost": {
+      "command": "php",
+      "args": [
+        "${workspaceFolder}/backend/artisan",
+        "boost:mcp"
+      ]
+    }
+  }
+}
