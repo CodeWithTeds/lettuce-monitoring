@@ -24,6 +24,10 @@ coverage
 *.sln
 *.sw?
 
+# Environment files
+.env
+.env.*
+
 *.tsbuildinfo
 
 .eslintcache
